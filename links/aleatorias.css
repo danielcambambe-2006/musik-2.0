@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+body{
+    margin: 0px;
+    background-color: #acc9cd;
+}
+header{
+    font-weight: normal;
+    background-color: #1e7387; 
+    padding: 10px;
+    text-align: center;
+    max-width: auto; 
+    height: auto;
+    
+
+
+}
+header h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+} 
+
+h1 mark{
+    font-family:'Peristiwa';
+    background-color: transparent;
+    color: #742ce7;} 
+nav{ 
+    text-align: left;
+}
+      
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-style: oblique;
+}
+nav a:hover{
+    color: #ffffff;
+    background-color: #0fd7ff;
+    border-radius: 10px;
+}
+
+main{ 
+    background-color: #a34113b3;
+    min-width: 350px; 
+    max-width: 800px;
+    margin: auto;  
+    padding: 0px 20px;     
+    padding: 20px;
+    height: 2550px; 
+    background-image:url(../fundos/aleatorios.jpg);
+    background-position: center;  
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+#foto{
+    
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: left; 
+    
+}
+#margem{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color: #6fa1a8d8;
+    padding: 2px; 
+    border-radius: 10px;
+    color: #000000;
+    text-decoration: solid;
+}
+#margem p{
+    line-height: 30px;
+    padding: 0px 10px 0px 10px;
+}
+p>a{
+
+    color: #ffffff;
+    text-decoration: none;  
+    padding: 5px; 
+}
+
+    
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 30px;
+    text-align: center;
+}
+.audio{
+    background-color: #6fa1a8d8;
+    color: #ffffff; 
+    padding: 10px;                                     
+    border-radius: 10px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    max-width: 400px;
+    min-width: 200px;
+
+}
+
+div img{
+    align-items: center;
+    width: 50px;
+    height: 50px;  
+    border-radius: 100px;
+}
+
+audio{
+    width: 295px;
+    max-width: 200px; 
+}
+
+footer{
+    color: #1e7387;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+        
