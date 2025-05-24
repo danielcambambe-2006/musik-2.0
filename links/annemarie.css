@@ -52,6 +52,7 @@ main {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #foto {
@@ -107,8 +108,14 @@ aside {
     font-family: Helvetica, sans-serif;
     width: 100%;
     max-width: 400px;
-    box-sizing: border-box;
+    
 }
+
+div img{
+    align-items: center;
+    width: 100px;
+    height: 50px; 
+    border-radius: 100px;}
 
 audio {
     width: 100%;

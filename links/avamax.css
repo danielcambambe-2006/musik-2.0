@@ -127,7 +127,8 @@ footer {
 /* --- ADICIONADO PARA RESPONSIVIDADE --- */
 @media (max-width: 600px) {
     nav {
-        text-align: center;
+        text-align: ;
+        animation-delay: 20ms;
     }
 
     nav a {
@@ -141,5 +142,6 @@ footer {
 
     .audio {
         height: auto;
+        
     }
 }
